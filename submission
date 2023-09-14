@@ -1,0 +1,80 @@
+# Using Data ICE
+#### Submission for Natalie Parrent
+
+## Accessing Data Within R 
+1. Header names are as follows: "Price", "Country", "Reliability" "Mileage", "Type", "Weight", "Disp.", "HP"
+2. There are 8 columns 
+3. There are 60 rows
+
+![explore_the_data](assests/img001.JPG)
+
+4. The categorical columns are: Country and Type
+
+![data_types](assests/img002.JPG)
+
+5. Type has 6 unique values
+6. Country has 8 unique values
+
+![unique_values](assests/img003.JPG)
+
+7. The value for row 57, column 3 is 5
+8. The values for row 24 are as follows:
+
+![specific_values](assests/img004.JPG)
+
+9. Three methods to select columns 1-3 on row 29
+
+![select_columns_in_row_29](assests/img005.JPG)
+
+10. Two ways to select columns 3 and 7 in row 45
+
+![row_45](assests/img006.JPG)
+
+11. A new dataframe for column HP created using two methods:
+
+![HP_dataframes](assests/img007.JPG)
+
+## Sorting and Ordering Data
+
+1. Compact cars with reliability >= 4
+
+![reliablity_over_4](assests/img008.JPG)
+
+2. Compact cars with reliability >=3 from Japan but not USA
+
+![reliability_over_3](assests/img009.JPG)
+
+3. There are 7 cars manufactured in Japan/USA
+
+![cars_from_Japan/USA](assests/img010.JPG)
+
+3. There are 45 cars manufactured in Japan or US
+
+![cars_made_Japan_or_US](assests/img011.JPG)
+
+4. There are 14 cars manufated in the US or Japan with a reliablity greater than or equal to 4. 
+
+![Japan_or_US](assests/img012.JPG)
+
+5. Create subsample of 70% of data:
+
+![70%_subsample](assests/img013.JPG)
+
+6. A subsample for an 8 fold cross:
+
+
+7. Numeric columns as new dataframe:
+
+![numeric_data_frame](assests/img016.JPG)
+
+8. Remove HP and Price from numeric data frame:
+
+![removehp_and_price](assests/img019.JPG)
+
+9. Save columns Country and Weight as new dataframe
+
+![count_weight_data](assests/img017.JPG)
+
+10. Rename the 2 columns
+
+![rename_columns](assests/img018.JPG)
